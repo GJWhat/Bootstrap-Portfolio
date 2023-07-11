@@ -1,3 +1,19 @@
+/* style.css */
+
+/* CSS for hover effect and box shadow on buttons */
+.card-body .btn-primary {
+    transition: all 0.3s ease; /* Add smooth transition */
+  }
+  
+  .card-body .btn-primary:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    transform: translateY(-2px); /* Move the button up slightly */
+  }
+  
+  /* Style the header */
+
+
+
 /* Change the background color of the navbar */
 .navbar {
     background-color: #333;
@@ -22,7 +38,7 @@
   .navbar-brand:hover {
     color: #ff9800;
   }
-  
+
  /* Style for the footer links */
 .footer-link {
     color: #000; /* Default color */
