@@ -1,5 +1,9 @@
 /* style.css */
 
+body {
+    background-color: lightblue !important;
+  }
+
 /* CSS for hover effect and box shadow on buttons */
 .card-body .btn-primary {
     transition: all 0.3s ease; /* Add smooth transition */
@@ -41,6 +45,7 @@
   }
 
  /* Style for the footer links */
+
 .footer-link {
     color: #000; /* Default color */
     text-decoration: none; /* Remove underline */

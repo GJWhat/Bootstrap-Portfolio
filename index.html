@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"
+    <link rel="stylesheet" href="./css/style.css"> <!-- Link to CSS -->
     <!--Bootstap 5  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -12,16 +12,16 @@
     <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Welcome</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link active" aria-current="page" href="#section2">Who am I?</a>
+              <a class="nav-link" href="#section4">About me / Contact</a>
+              <a class="nav-link" href="#section3">My work</a>
+              <a class="nav-link" href="#section5">Social Media</a>
             </div>
           </div>
         </div>
@@ -29,29 +29,32 @@
     <!-- Nav bar end>
 
     <!-- Jumbotron w/portrait -->
-    <div class="container mt-3">
+        <section id="section2>
+        <div class="container mt-3">
         <div class="text-center">
             </div>
             <div class="mt-4 p-5 bg-primary text-white rounded text-center">
-            <h1 class="mb-4">Jumbotron Example</h1><img src="./css/images/profile pic.png" alt="portrait"> 
-            <h2>Example of Jumbotron</h2> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+            <h1 class="mb-4">Gavin Watton</h1><img src="./css/images/profile pic.png" alt="portrait"> 
+            <h2>Front-end developer</h2> 
+          <p>My jorney into the world of web development</p> 
         </div>
-      </div>
-    <!-- Jumboton end -->
+        </section></div>
+        <!-- Jumboton end -->
 
     <!-- Grid 'About me' -->
+    <section id="section3">
     <div class="container">
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-left">
           <div class="col col-lg-2">
           </div>
-          <div class="col-md-auto">
-            <h1>About me...</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque libero ab maiores quibusdam, tempora nemo doloribus quam qui assumenda veniam alias! Dignissimos neque maiores aliquam perferendis enim qui vero.</p>
+          <div class="col-md-left">
+            <h1>My Work:</h1>
+            <p>Shown below are numerous examples of my work, which be added to as I progress in ability and amass a a larger portfolio of work.</p>
           </div>
           <div class="col col-lg-2">
          </div>
         </div>
+    </section>
     <!-- Grid 'About me'end -->
 
    <!--grid begins  -->
@@ -125,6 +128,7 @@
   
   <!-- Skills/Contact section beginning -->
   <div class="container">
+    <section id="section4">
     <div class="row">
       <div class="col-md-6 mb-3">
         <div class="card" style="width: 100%; background-color: rgba(21, 20, 20, 0.5);">
@@ -162,6 +166,7 @@
    <!-- Skills/Contact section beginning -->
 
   <footer class="card">
+    <section id="section5">
     <div class="card-header">
       Featured
     </div>
@@ -170,9 +175,9 @@
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
       <div class="text-center"></div>
         <div class="d-flex justify-content-center"> 
-            <a href="#" class="btn btn-primary mx-2 footer-link">Go somewhere</a>
-            <a href="#" class="btn btn-primary mx-2 footer-link">Go somewhere</a>
-            <a href="#" class="btn btn-primary mx-2 footer-link">Go somewhere</a>
+            <a href="https://twitter.com/home?lang=en-gb" class="btn btn-primary mx-2 footer-link">Twitter</a>
+            <a href="https://www.instagram.com/" class="btn btn-primary mx-2 footer-link">Instagram</a>
+            <a href="https://en-gb.facebook.com/" class="btn btn-primary mx-2 footer-link">Facebook</a>
     </footer>
   </div>
  
