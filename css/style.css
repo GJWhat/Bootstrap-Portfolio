@@ -1,0 +1,38 @@
+/* Change the background color of the navbar */
+.navbar {
+    background-color: #333;
+  }
+  
+  /* Change the color of the navbar links */
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  /* Change the hover effect of the navbar links */
+  .navbar-nav .nav-link:hover {
+    color: #ff9800;
+  }
+  
+  /* Change the color of the navbar brand */
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  /* Change the hover effect of the navbar brand */
+  .navbar-brand:hover {
+    color: #ff9800;
+  }
+  
+ /* Style for the footer links */
+.footer-link {
+    color: #000; /* Default color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add smooth transition */
+  }
+  
+  /* Hover effect for the footer links */
+  .footer-link:hover {
+    color: #ff9800; /* New color on hover */
+  }
+  
+  
