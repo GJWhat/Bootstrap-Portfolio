@@ -6,6 +6,7 @@
   }
   
   .card-body .btn-primary:hover {
+    color: #ff9800; /* New color on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
     transform: translateY(-2px); /* Move the button up slightly */
   }
@@ -24,7 +25,7 @@
     color: #fff;
   }
   
-  /* Change the hover effect of the navbar links */
+  /* Change the hover effect of the navbar links*/ 
   .navbar-nav .nav-link:hover {
     color: #ff9800;
   }
